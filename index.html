@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Robot Bobby Earth</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      body {
+        margin: 0;
+      }
+    </style>
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://cdn.jsdelivr.net/npm/three@0.161/build/three.module.js",
+          "jsm/": "https://cdn.jsdelivr.net/npm/three@0.161/examples/jsm/"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="stars-background">
+        <img src="./textures/back/back.svg" alt="" srcset="">
+      </div>
+
+      <div class="main-content">
+        <div class="laptop">
+          <img src="./textures/back/mac.svg" alt="" srcset="">
+        </div>
+
+        <div class="SL">
+          <img src="./textures/back/SL.svg" alt="" srcset="">
+        </div>
+
+        <div class="rectangles">
+          <img class="first" src="./textures/back/rectangles/Rectangle1.svg" alt="" srcset="">
+          <img class="second" src="./textures/back/rectangles/Rectangle2.svg" alt="" srcset="">
+          <img  class="third" src="./textures/back/rectangles/Rectangle3.svg" alt="" srcset="">
+        </div>
+        
+        <div class="info">
+          <div class="logo">
+            <img src="./textures/back/Лого.svg" alt="" srcset="">
+            <div class="logo-name">
+              <p class="logo-title">W.I.C Group</p>
+              <p class="logo-desc">World Investment Community</p>
+            </div>
+          </div>
+          <h1 class="title">Цифровая метавселенная безграничных возможностей инвестирования</h1>
+          <div class="desc">Ваш успешный старт на базе пяти прогрессивных платформ</div>
+          <button class="btn">Поехали!</button>
+        </div>
+      </div>
+
+      <div class="num">5</div>
+      <div class="metauniverse">
+        <h3 class="title">Базовых платформ метавселенной
+          WIC Group</h3><br><br>
+        <div class="desc">Предствляем инвестиционную метавселенную WIC Group  –  совокупность взаимодополняющих
+          сервисов, созданных специально для погружения
+          в мир цифровых финансов.
+          </div><br>
+          <div class="desc2">Зарабатывать может каждый!</div>
+      </div>
+
+      <div class="bac2">
+        <img class="bac2img1" src="./textures/back/back3.svg" alt="" srcset="">
+      </div>
+      <div class="bac2">
+        <img class="bac2img2"  src="./textures/back/back2.svg" alt="" srcset="">
+      </div>
+      <div class="bac2 SL2">
+        <img src="./textures/back/SL2.svg" alt="" srcset="">
+      </div>
+      <div class="back3">
+        <img src="./textures/back/Фон WICing.svg" alt="" srcset="">
+      </div>
+
+      <img class="back-8" src="./textures/back/Rectangle 5.svg" alt="" srcset="">
+
+      <div class="back6">
+        <img class="vector-img" src="./textures/back/Vector 23.svg" alt="" srcset="">
+
+        <img src="./textures/back/Slice 3 1.svg" alt="" srcset="">
+        <img class="macbook" src="./textures/back/Free Macbook Air 2020 Mockup_без теней 1.svg" alt="" srcset="">
+
+      </div> 
+
+      <div id="offer-container">
+        <!-- in js -->
+      </div>
+
+      <div id="planet-container">
+        <!-- planet-boxes -->
+      </div>
+
+    </div>
+
+    <div class="part3">
+      <div class="go">
+        <div class="subtitle">Платформа WIC Academy</div><br>
+        <h2 class="title">Начни с обучения в WIC Academy</h2><br><br>
+        <div class="desc">Предлагаем освоить азы обращения с криптовалютой и разобраться
+          с тонкостями цифровых инвестиций <br>
+          на платформе WIC Academy.</div>
+          <button class="btn btn2">Поехали!</button>
+      </div>
+
+      <div class="images">
+        <div>
+          <img src="./textures/Rectangle2-2.svg" alt="">
+        </div>
+        <div>
+          <img class="img2" src="./textures/Rectangle2-1.svg" alt="">
+        </div>
+        <div>
+          <img class="img3" src="./textures/Сатурн.svg" alt="">
+        </div>
+        
+        <!-- <div class="planet">
+          <canvas></canvas>
+        </div> -->
+      </div>
+      <br><br>
+      <div id="main-less-container">
+        <h3 class="title">Чему вы научитесь</h3>
+        <br>
+        <div id="less-container">
+          <!-- selected lessons created in js -->
+        </div>
+      </div>
+    </div>
+
+    <div class="part4">
+      <h2 class="title">Базовая программа обучения</h2>
+      <p class="p4pgf">Чтобы разобраться с безграничными возможностями криптоинвестирования, необходимо начать с базовых принципов ее работы. Именно этому посвящёно обучение в WIC Academy: вы изучите материал и сможете управлять вложениями, а не просто покупать криптовалюту наугад.</p>
+    </div>
+
+    <div class="modules">
+      <div class="left" id="books-wrapper"><!-- in js --></div>
+      <div class="right">
+        <div class="intro">
+          <p class="subtitle">Первый модуль</p>
+          <h3 class="title">Введение в мир криптовалюты</h3>
+          <p class="l-info">В этом модуле мы расскажем, как ставить цели на инвестиции, считать личный финансовый план, научим разбираться в продукте, оценивать риски и определять ваш риск-профиль. А ещё разберём принципы грамотных инвест-стратегий и изучим принцип диверсификации.</p>
+          <button class="btn mod-btn">Начать</button>
+        </div><br>
+        <h3 class="thems">Темы:</h3>
+        <div class="ols">
+          <!-- in js -->
+        </div>
+      </div>
+    </div>
+
+    <div class="part5">
+      <img class="spiral" src="./textures/back/Иллюстрация.svg" alt="" srcset="">
+    <div class="content">
+      <p class="subtitle">Платформа WIC ing</p>
+      <h3 class="title">Галлактика WIC ing – для отдыха и жизни </h3>
+      <p class="desc">Лучший способ попробовать свои силы в обращении с криптовалютой - начать пользоваться платформой WiC ing. При регистрации Вам автоматически начисляются токены WIC, которыми Вы можете распорядиться на свое усмотрение.</p>
+      <br>
+      <div class="arrow-left">
+          <img id="left-arrow" class="arrow" src="./textures/arrows/free-icon-right-arrow-556670 2.svg" alt="">
+          <img id="right-arrow" class="right-arrow arrow" src="./textures/arrows/free-icon-right-arrow-556670 1.svg" alt="">
+      </div>
+      <div class="boxes" id="boxes-container">
+        <!-- Boxes will by JavaScript -->
+      </div>
+  </div>
+    
+  <div class="part6">
+    <h3 class="title">Проводите время интересно и с пользой</h3>
+    <ul id="dynamic-list"></ul>
+
+    <div class="orange-list">
+      <p class="desc">Принимай участие в конкурсах от WIC ing
+        и получай возможность выигрывать отличные призы и вознаграждения!</p>
+      <ul>
+        <li>Крутые призы: IPhones 13, AirPods,
+          подписка Apple Store</li>
+        <li>Для участия требуется только регистрация</li>
+        <li>Конкурсов много – выбирай в каких участвовать!</li>
+      </ul>
+      <button class="btn download-btn">Участвовать</button>
+    </div>
+  </div>
+
+  <div class="part7">
+    <p class="desc">Платформа WIC Traders</p>
+    <h4 class="title">Уже не новичек? Тогда добро пожаловать в WIC Traders</h4>
+
+    <div class="items" id="dynamic-items"></div>
+
+    <div class="content">
+      <div class="left">
+        <img class="main-img" src="./textures/фото 2.svg" alt="" srcset="">
+        <img class="robot-img" src="./textures/фото 1.svg" alt="" srcset="">
+        <img class="planet" src="./textures/планета 1.svg" alt="">
+        <div class="desc">Наша уникальная алгоритмическая торговая <br> платформа WIC Traders предлагает наилучшие <br> возможности для работы в получении<br>
+          высоких финансовых результатов<br>
+          с использованием любых<br>
+          биржевых активов.
+        </div>
+        <div class="link">
+          <p class="name">Подробнее</p>
+          <img class="arrow" src="./textures/arrows/free-icon-right-arrow-556670 1.svg" alt="" srcset="">
+        </div>
+
+      </div>
+      <div class="right">
+        <div class="first">
+          <div class="left-num">
+              <p class="num">3</p>
+              <h4 class="title">стратегии <br>
+                под разные цели</h4>
+          </div>
+          <div class="desc">
+            <p>Платформа WIC Traders позволяет зарабатывать
+              на мировых биржах и держать под контролем свои финансовые активы. </p>
+          
+            <p>Для этого разработаны три пакета, каждый
+            из которых настроен на достижение лучшего результата. </p>
+          </div>
+        </div>
+        <div class="second">
+          <div class="left-num">
+            <p class="num">3</p>
+            <h4 class="title">торговых работа <br>
+              с разными функциями</h4>
+          </div>
+          <div class="desc">
+            <p>Команда роботов, созданных на основе собственных алгоритмов, с использованием ведущих торговых стратегий </p>
+            <p>Команда роботов, созданных на основе собственных алгоритмов, с использованием ведущих торговых стратегий </p>
+          </div>
+          <button class="btn btn-start">Начать торговать</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="part8">
+    <p class="subtitle">Платформа WIC Investing</p>
+    <h4 class="title">Приумножайте капитал на технологиях <br> цифровых активов WIC Investing</h4>
+    <p class="desc">Проект Wic-Group основан швейцарской инвестиционной компанией GERALKA PROJECT AG, наряду с другими успешными проектами в сфере цифровой криптоиндустрии.</p>
+    <p class="desc">На протяжении нескольких лет наша команда разрабатывала
+      инновационную технологию управления цифровыми финансовыми
+      активами. Последние 3 года мы успешно используем 
+      её на различных торговых площадках мира.</p>
+    <button class="btn btn-8">Инвестировать</button>
+
+
+    <div class="check-list">
+      <div class="check">
+        <img src="./textures/Vector-b.svg" alt="" srcset="">
+        <img class="tick"  src="./textures/Vector-b-1.svg" alt="" srcset="">
+        <p class="text">Более 5 000 000 USDT под управлением нашей платформы</p>
+      </div>
+      <div class="check">
+        <img src="./textures/Vector-b.svg" alt="" srcset="">
+        <img class="tick"  src="./textures/Vector-b-1.svg" alt="" srcset="">
+        <p class="text">Прибыль, генерируемая пятью иструментами системы Buffet</p>
+      </div>
+      <div class="check">
+        <img src="./textures/Vector-b.svg" alt="" srcset="">
+        <img class="tick"  src="./textures/Vector-b-1.svg" alt="" srcset="">
+        <p class="text">10 лет работы в инновационных технологиях</p>
+      </div>
+      <div class="check">
+        <img src="./textures/Vector-b.svg" alt="" srcset="">
+        <img class="tick" src="./textures/Vector-b-1.svg" alt="" srcset="">
+        <p class="text">37 разработок в инвестиционной сфере</p>
+      </div>
+    </div>
+
+    <img class="profitabil" src="./textures/Доходность.svg" alt="" srcset="">
+
+    <div class="window">
+      <img class="bground" src="./textures/Фон.svg" alt="" srcset="">
+      <img class="phone" src="./textures/phone.svg" alt="">
+    </div>
+
+    <div class="w-content">
+      <p class="subtitle">Платформа WIC Payment</p>
+      <h3 class="title">Обменивай криптоактивы быстро
+        и безопасно на WIC Payment</h3>
+    </div>
+
+    <div class="link-to">
+      <a href="#">Купить</a>
+      <a href="#">Продать</a>
+    </div>
+
+    <div class="give">
+      <div class="box">
+        <div class="dark">
+          <p>Отдаете</p>
+          <p class="number">150</p>
+        </div>
+        <div class="light">
+          <p>BTC</p>
+          <div class="poly">
+            <img src="./textures/polygon/Polygon 1.svg" alt="" srcset="">
+            <img src="./textures/polygon/Polygon 2.svg" alt="" srcset="">
+          </div>
+        </div>
+      </div>
+      
+      <div class="box">
+        <div class="dark">
+          <p>Вы получаете</p>
+          <p class="number">0,075</p>
+        </div>
+        <div class="light">
+          <p>ETH</p>
+          <div class="poly">
+            <img src="./textures/polygon/Polygon 1.svg" alt="" srcset="">
+            <img src="./textures/polygon/Polygon 2.svg" alt="" srcset="">
+          </div>
+        </div>
+      </div>
+      
+      <button class="buy-btn">КУПИТЬ</button>
+    </div>
+
+    <div class="take">
+      
+    </div>
+  </div>
+
+  <div class="part9">
+    <img src="./textures/back/SL2.svg" alt="" srcset="">
+
+    <div class="about">
+
+      <h4 class="title">
+      <img class="logo" src="./textures/back/Лого.svg" alt="" class="logo">
+      <p>О метавселенной WIC Group</p>
+      </h4>
+      <p class="desc">Проект Wic-Group основан швейцарской инвестиционной компанией GERALKA PROJECT AG, наряду с другими успешными проектами в сфере цифровой криптоиндустрии.
+        Российский сегмент этого проекта представлен на этом сайте.</p>
+      <p class="desc">Мы поставили задачу разработать алгоритм управления цифровыми финансовыми
+        активами и дать возможность каждому человеку 
+        с любым уровнем знаний о финансовых рынках, с минимальным депозитом и из любой точки Земли, получать пассивный доход 
+        на уровень выше самых успешных трейдеров.</p>
+      <p class="desc">Проект Wic-Group - для тех, кто ценит надежность, стабильность, уверенность и заботится о своем благосостоянии.</p>
+      <button class="btn about-btn">Подробнее о проекте</button>
+      <p class="num">100%</p>
+      <p class="num-desc">зарабатывать может каждый</p>
+    </div>
+
+    <div class="contact">
+      <img src="./textures/back/Rectangle 57.svg" alt="" srcset="">
+
+      <h5 class="title">Остались вопросы?</h5>
+      <p class="desc">Заполните форму, и специалисты нашей команды свяжутся с вами в течение дня</p>
+      <form>
+        <input placeholder="Имя" type="text" id="fname" name="fname"><br>
+        <input placeholder="Электронна почта" type="text" id="email" name="email"><br>
+        <textarea placeholder="Ваш вопрос" type="text" id="question" name="question"></textarea>
+        <button type="submit" class="btn form-btn">Узнать подробности</button>
+      </form>
+
+    </div>
+
+  </div>
+
+  <div class="footer">
+    <div class="left">
+      <div class="logo">
+        <img src="./textures/back/Лого.svg" alt="">
+        <div class="logo-name">
+          <p class="logo-title">W.I.C Group</p>
+          <p class="logo-desc">World Investment Community</p>
+        </div>
+      </div>
+      <p class="desc">
+        Проект wic-group.ru находится под управлением
+швейцарской компании GERALKA PROJECT AG
+      </p>
+      <p class="desc">Мы не предоставляем наши услуги резидентам: Австралии, Канады, США, Японии.</p>
+    </div>
+    <div class="right">
+      <div class="top"><!-- in js --></div>
+
+      <div class="bottom">
+        <div class="icons">
+          <div class="i-content">
+            <img src="./textures/back/icons/email 1.svg" alt="" srcset="">
+            <p class="desc">info@wic-group.ru</p>
+          </div>
+          <div class="i-content">
+            <img src="./textures/back/icons/instagram 1.svg" alt="" srcset="">
+            <p class="desc">wic.group</p>
+          </div>
+          <div class="i-content">
+            <img src="./textures/back/icons/vk-logo 1.svg" alt="" srcset="">
+            <p class="desc">wic_group</p>
+          </div>
+          
+        </div>
+
+        <div class="teleg">
+          <div class="i-content">
+            <img src="./textures/back/icons/free-icon-telegram-152827 2.svg" alt="" srcset="">
+            <p class="desc">Телеграм-канал Wic-Group</p>
+          </div>
+          <div class="i-content">
+            <img src="./textures/back/icons/free-icon-telegram-152827 2.svg" alt="" srcset="">
+            <p class="desc">W.I.C чат</p>
+          </div>
+        </div>
+
+        <button class="bottom-btm">Заказ консультации</button>
+      </div>
+    </div>
+  </div>
+
+    <script src="function.js"></script>
+    <script type="module" src="index.js"></script>
+    <script type="module" src="threejs-earth.js"></script>
+    
+  </body>
+</html>
